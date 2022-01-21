@@ -5,129 +5,194 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Домашнее задание #3</title>
+  <title>Домашнее задание #4</title>
 </head>
 <body>
-  <div id="block1">
-    <table width="100%">
-      <tr>
-        <td>
-          <img src="./assets/logo-black.png" srcset="./assets/logo-black@2x.png 2x, ./assets/logo-black@4x.png 4x" alt="логотип">
-        </td>
-        <td align="right">
-          <p>DECEMBER 2021</p>
-        </td>
-      </tr>
-    </table>
-    <img src="./assets/human.png" srcset="./assets/human@2x.png 2x, ./assets/human@4x.png 4x" alt="человек" width="560">
-    <h1>CHOOSE FLUTTER TO CHOOSE BOTH</h1>
-    <button>REGISTER</button>
-  </div>
-  <div id="block2">
-    <h2>WORKSHOP</h2>
-    <p>
-      We're launching a series of practical workshops on development in January 2020. We'll
-      teach you how to know your way around software, share the latest news, and help to start.
-    </p>
-    <p>
-      First workshop will familiarize you with cross-platform mobile development toolkit called
-      Flutter. Join if you're aspiring to learn how to develop mobile apps and master new
-      tools, but unsure what to start with.
-    </p>
-  </div>
-  <div id="block3">
-    <h2>WHEN AND WHERE</h2>
-    <div>
-      <h3>Where</h3>
-      <p>Moscow, office</p>
+  <header class="header">
+    <img class="header__bg-human" src="./assets/human.png" srcset="./assets/human@2x.png 2x, ./assets/human@4x.png 4x" alt="человек на фоне" width="560">
+    <div class="header__content spacing">
+      <div class="headerTop">
+        <img src="./assets/logo.svg" class="logo" alt="логотип"/>
+        <p class="headerTop__date">December 2021</p>
+      </div>
+      <ul class="header__manufactures-list">
+        <li class="header__manufactures-item">
+          <a href="http:// www.android.com" class="header__manufactures-link" target="_blank" >
+            <img src="./assets/ios.svg" alt="ios" class="header__manufactures-logo" />
+          </a>
+          <p class="header__manufactures-name">iOS</p>
+        </li>
+        <li class="header__manufactures-item">
+          <a href="http://www.apple.com" class="header__manufactures-link" target="_blank">
+            <img src="./assets/android.svg" alt="android" class="header__manufactures-logo" />
+          </a>
+          <p class="header__manufactures-name">Android</p>
+        </li>
+      </ul>
+      <h1 class="header__title">
+        <p class="header__title-p header__title-p_top">CHOOSE</p>
+        <p class="header__title-p header__title-p_middle">FLUTTER</p>
+        <p class="header__title-p header__title-p_bottom">TO CHOOSE BOTH</p>
+      </h1>
+      <div class="header__btn-block">
+        <button class="button">REGISTER</button>
+      </div>
     </div>
-    <div>
-      <h3>About the course</h3>
-      <p>Duration: 2 weeks.</p>
-      <p>Comprises 4 2-hour modules twice a week.</p>
+  </header>
+  <main class="main">
+    <div class="workshop spacing">
+      <div class="headerTop">
+        <img src="./assets/logo-black.png" class="logo logo_black" alt="логотип"/>
+        <h2 class="headerTop__title">workshop</h2>
+        <button class="button button_type_less">REGISTER</button>
+      </div>
+      <section class="descriptionText">
+        <p class="descriptionText-p">
+          We're launching a series of practical workshops on development in January 2020. We'll teach you how to know your way around software, share the latest news, and help to start.
+        </p>
+        <p class="descriptionText-p">
+          First workshop will familiarize you with cross-platform mobile development toolkit called Flutter. Join if you're aspiring to learn how to develop mobile apps and master new tools, but unsure what to start with.
+        </p>
+      </section>
+      <ul class="recommendations">
+        <li class="recommendation-item">
+          <img class="recommendation-item__img" src="./assets/recommendation-item-1.png" alt="человек" />
+          <h3 class="recommendation-item__title">about what</h3>
+          <p class="recommendation-item__description">
+            Platform perks, intro to Dart language and creating your own apps. Bonus: intro to (fantastic) animation.
+          </p>
+        </li>
+        <li class="recommendation-item">
+          <img class="recommendation-item__img" src="./assets/recommendation-item-2.png" alt="человек" />
+          <h3 class="recommendation-item__title">for whom</h3>
+          <p class="recommendation-item__description">
+            Students and IT professionals that try to decide if they want to work with mobile app development fast.
+          </p>
+        </li>
+        <li class="recommendation-item">
+          <img class="recommendation-item__img" src="./assets/recommendation-item-3.png" alt="человек" />
+          <h3 class="recommendation-item__title">why</h3>
+          <p class="recommendation-item__description">
+            To cover cross-platform development bases quickly. Understand pros and cons if it using workshop format.
+          </p>
+        </li>
+      </ul>
     </div>
-    <div>
-      <h3>When</h3>
-      <p>DECEMBER 2021</p>
+    <div class="location">
+      <div class="location__content spacing">
+        <div class="headerTop">
+          <img src="./assets/logo.svg" class="logo logo_black" alt="логотип"/>
+          <h2 class="headerTop__title">when and where</h2>
+          <button class="button button_type_less button_bg_transparent">REGISTER</button>
+        </div>
+        <section class="infoBlock">
+          <div class="infoBlock__item infoBlock__1">
+            Where
+          </div>
+          <div class="infoBlock__item infoBlock__2">
+            About the course
+          </div>
+          <div class="infoBlock__item infoBlock__3">
+            <p class="infoBlock__text_type_less">Moscow, office</p>
+            <p class="infoBlock__organization">LearnUp</p>
+            <p class="infoBlock__location"><img class="icon-location" src="./assets/icon-location.png" alt="локация" />Sloboda st., 5</p>
+          </div>
+          <div class="infoBlock__item infoBlock__4">
+            <p class="infoBlock__text_type_less infoBlock__text_margin">Duration: 2 weeks.</p>
+            <p class="infoBlock__text_type_less">Comprises 4 2-hour modules twice a week</p>
+          </div>
+          <div class="infoBlock__item infoBlock__5">
+            When
+          </div>
+          <div class="infoBlock__item infoBlock__6">
+            <p class="infoBlock__text_type_normal">December</p>
+            <p class="infoBlock__text_type_high">2021</p>
+          </div>
+          <div class="infoBlock__item infoBlock__7">
+            <p class="infoBlock__text_type_normal">cost</p>
+            <p class="infoBlock__text_type_high">Free</p>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
-  <div id="block4">
-    <h2>WHO</h2>
-    <table width="40%" border="1">
-      <caption>Цены на флагманские модели Iphone и Xiaomi</caption>
-      <thead>
-        <tr>
-          <th>
-            Производитель
-          </th>
-          <th>
-            Модель
-          </th>
-          <th>
-            Цена
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="3">Iphone</td>
-          <td>12 Pro</td>
-          <td>$999</td>
-        </tr>
-        <tr>
-          <td>12</td>
-          <td>$799</td>
-        </tr>
-        <tr>
-          <td>12 mini</td>
-          <td>$699</td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <td rowspan="2">Xiaomi</td>
-          <td>Mi 10</td>
-          <td>$768</td>
-        </tr>
-        <tr>
-          <td>Black Shark 3 128 Gb</td>
-          <td>$529</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="2">Средняя цена:</td>
-          <td>$758.8</td>
-        </tr>
-      </tfoot>
-    </table>
-    <button>Register</button>
-  </div>
-  <div id="block5">
-    <h2>GET READY</h2>
-    <p>
-      We prepared some materials to get to know the platform. You're not obliged to study them,
-      but it'll help to learn the basics faster and easier, prepare a list of questions to
-      lecturers, and have a more productive workshop experience.
-    </p>
-    <button>Register</button>
-  </div>
-  <div id="block6">
-    <h2>ORGANIZERS</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non
-      possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur
-      rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam
-      obcaecati perferendis quia quis soluta totam unde vero. Accusantium aperiam beatae
-      consequatur culpa dolor, earum eius expedita fuga illo ipsa libero maiores maxime
-      molestias nulla numquam obcaecati odit praesentium sunt tenetur totam.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non
-      possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur
-      rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam
-      obcaecati perferendis quia quis soluta totam unde vero.
-    </p>
-  </div>
+    <div class="who spacing">
+      <div class="headerTop">
+        <img src="./assets/logo-black.png" class="logo" alt="логотип"/>
+        <h2 class="headerTop__title">who</h2>
+        <p class="headerTop__date headerTop__date_color_grey">December 2021</p>
+      </div>
+      <div class="who__btn-block">
+        <button class="button button_bg_orange">REGISTER</button>
+      </div>
+    </div>
+    <div class="getReady">
+      <div class="getReady__content spacing">
+        <div class="headerTop">
+          <img src="./assets/logo.svg" class="logo" alt="логотип"/>
+          <h2 class="headerTop__title">get ready</h2>
+          <p class="headerTop__date">December 2021</p>
+        </div>
+        <section class="descriptionText getReady__descriptionText">
+          <p class="descriptionText-p">
+            We prepared some materials to get to know the platform. You're not obliged to study them, but it'll help to learn the basics faster and easier, prepare a list of questions to lecturers, and have a more productive workshop experience.            
+          </p>
+        </section>
+        <ul class="recommendations recommendations_place_getReady">
+          <li class="recommendation-item recommendation-item_place_getReady">
+            <span class="recommendation-item__number">1.</span>
+            <h3 class="recommendation-item__title recommendation-item__title_place_getReady">Watch</h3>
+            <p class="recommendation-item__description">
+              <a href="http://google.com" class="recommendation-item__link">a boring Google presentation 😜</a>
+            </p>
+          </li>
+          <li class="recommendation-item recommendation-item_place_getReady">
+            <span class="recommendation-item__number">2.</span>
+            <h3 class="recommendation-item__title recommendation-item__title_place_getReady">Read</h3>
+            <p class="recommendation-item__description">
+              about Flutter <a href="http://habr.com" class="recommendation-item__link">here</a> and <a href="http://habr.com" class="recommendation-item__link">here</a> on habr🤓
+            </p>
+          </li>
+          <li class="recommendation-item recommendation-item_place_getReady">
+            <span class="recommendation-item__number">3.</span>
+            <h3 class="recommendation-item__title recommendation-item__title_place_getReady">SCAN</h3>
+            <p class="recommendation-item__description">
+              Flutter <a href="https://doka.guide" class="recommendation-item__link">documentation</a>😭
+            </p>
+          </li>
+        </ul>
+        <div class="getReady__btn-block">
+          <button class="button">REGISTER</button>
+        </div>
+      </div>
+    </div>
+    <div class="organizers spacing">
+      <div class="headerTop">
+        <img src="./assets/logo-black.png" class="logo" alt="логотип"/>
+        <h2 class="headerTop__title">organizers</h2>
+        <button class="button button_type_less">REGISTER</button>
+      </div>
+      <section class="descriptionText descriptionText_place_organizers">
+        <p class="descriptionText-p descriptionText-p_place_organizers">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero. Accusantium aperiam beatae consequatur culpa dolor, earum eius expedita fuga illo ipsa libero maiores maxime molestias nulla numquam obcaecati odit praesentium sunt tenetur totam.
+        </p>
+        <p class="descriptionText-p descriptionText-p_place_organizers">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero.
+        </p>
+      </section>
+      <div class="organizers__block-openings">
+        <div class="organizers__socials">
+          <a href="http://facebook.com" class="organizers__social-link"><img src="./assets/facebook.svg" class="organizers__social-logo" alt="фэйсбук"></a>
+          <a href="http://facebook.com" class="organizers__social-link"><img src="./assets/inst.svg" class="organizers__social-logo" alt="инстаграм"></a>
+          <a href="http://facebook.com" class="organizers__social-link"><img src="./assets/in.svg" class="organizers__social-logo" alt="линкед-ин"></a>
+          <p class="organizers__social-text">Join us in social media</p>
+        </div>
+        <button class="button button_place_organizers">Explore openings</button>
+      </div>
+    </div>
+  </main>
+  <footer class="footer spacing">
+    <p class="footer__copyright">&copy; 2021 LearnUp</p>
+    <p class="footer__email">email@learnup.ru</p>
+  </footer>
 </body>
 </html>
