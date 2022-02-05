@@ -1,0 +1,27 @@
+@import url('../../fonts/FiraSans/FiraSans.css');
+@import url('../../fonts/OpenSans/OpenSans.css');
+
+$fontFamily-1: 'FiraSans', Arial, Helvetica;
+$fontFamily-2: 'OpenSans', Arial, Helvetica;
+
+$maxWidthContent: 1180px;
+$minHeightHeader: 794px;
+$widthBgHuman: 1080px;
+
+$fontSize-1: 14px;
+$fontSize-2: 19px;
+$fontSize-3: 24px;
+$fontSize-4: 32px;
+$fontSize-5: 48px;
+$fontSize-6: 56px;
+$fontSize-7: 96px;
+$fontSize-8: 128px;
+
+$color-1: rgb(74, 74, 74);
+$color-2: white;
+$color-3: #ff7e03;
+
+$bgGradient-1: radial-gradient(at top, #f9a937, #f5952f, #f17d23);
+$bgGradient-2: linear-gradient(90deg, #fc6f5c, #faa235, #fb923b);
+$bgGradient-3: linear-gradient(0deg, #353535, #353535),
+  linear-gradient(0deg, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8));

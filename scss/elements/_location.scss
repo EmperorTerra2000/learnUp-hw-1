@@ -1,0 +1,9 @@
+.location {
+  background: $bgGradient-3;
+
+  &__content {
+    color: $color-2;
+    padding-top: 48px;
+    padding-bottom: 106px;
+  }
+}
