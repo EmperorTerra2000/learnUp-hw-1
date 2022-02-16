@@ -1,0 +1,12 @@
+.descriptionText-p {
+  margin-bottom: 12px;
+  font-size: $fontSize-2;
+  line-height: 23px;
+  font-weight: 300;
+
+  &_place_organizers {
+    font-weight: 200;
+    font-size: $fontSize-1 + 2;
+    margin-bottom: 25px;
+  }
+}

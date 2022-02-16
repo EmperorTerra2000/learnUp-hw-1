@@ -1,0 +1,21 @@
+.getReady {
+  background: $bgGradient-1;
+
+  &__content {
+    padding-top: 54px;
+    padding-bottom: 131px;
+    display: flex;
+    flex-direction: column;
+    color: $color-2;
+  }
+
+  &__descriptionText {
+    margin-top: 130px;
+  }
+
+  &__btn-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 109px;
+  }
+}
