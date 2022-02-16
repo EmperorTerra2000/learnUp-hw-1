@@ -1,0 +1,76 @@
+.header {
+  min-height: $minHeightHeader;
+  background: $bgGradient-1;
+  position: relative;
+
+  &__bg-human {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    object-fit: contain;
+    object-position: center;
+    width: $widthBgHuman;
+  }
+
+  &__content {
+    padding-top: 55px;
+    position: relative;
+  }
+
+  &__manufactures-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 134px;
+    max-width: 1060px;
+  }
+
+  &__manufactures-name {
+    font-size: $fontSize-3;
+    color: $color-2;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-2;
+    margin-top: 1px;
+  }
+
+  &__title-p {
+    max-width: 500px;
+    margin-right: -24px;
+    text-transform: uppercase;
+  }
+
+  &__title-p_top {
+    letter-spacing: 0.94em;
+    font-size: $fontSize-6;
+    line-height: 56px;
+  }
+
+  &__title-p_middle {
+    font-size: $fontSize-8;
+    font-weight: 800;
+    line-height: 110px;
+  }
+
+  &__title-p_bottom {
+    font-size: $fontSize-4 + 4;
+    letter-spacing: 0.428em;
+    line-height: 36px;
+    margin-left: 23px;
+  }
+
+  &__btn-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+  }
+}

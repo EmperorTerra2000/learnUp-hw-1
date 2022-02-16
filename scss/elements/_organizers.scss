@@ -1,0 +1,30 @@
+.organizers {
+  color: $color-1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 42px;
+  padding-bottom: 101px;
+
+  &__block-openings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 128px;
+    padding: 0 120px;
+  }
+
+  &__socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__social-text {
+    font-size: $fontSize-1 + 2;
+    line-height: 20px;
+  }
+
+  &__social-link {
+    margin-right: 28px;
+  }
+}

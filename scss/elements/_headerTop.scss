@@ -1,0 +1,24 @@
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__date {
+    font-size: $fontSize-2 - 1;
+    color: $color-2;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: $fontSize-4 + 4;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.17em;
+    margin-right: -34px;
+  }
+
+  &__date_color_grey {
+    color: $color-1;
+  }
+}

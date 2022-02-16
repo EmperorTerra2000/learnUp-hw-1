@@ -1,0 +1,11 @@
+.recommendations {
+  display: flex;
+  align-content: center;
+  align-self: center;
+  list-style: none;
+  margin-top: 100px;
+
+  &_place_getReady {
+    margin-top: 85px;
+  }
+}

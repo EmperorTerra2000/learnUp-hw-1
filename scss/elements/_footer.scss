@@ -1,0 +1,17 @@
+.footer {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__copyright {
+    font-size: $fontSize-1 + 1;
+    line-height: 19px;
+  }
+
+  &__email {
+    font-size: $fontSize-2 - 1;
+    line-height: 25px;
+    color: $color-3;
+  }
+}
